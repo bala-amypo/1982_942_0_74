@@ -7,8 +7,8 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Stuentity{
-    @id
-    @GenerativeValue(strategy=GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String email;
@@ -20,22 +20,25 @@ public class Stuentity{
     public void setId(Long id){
         this.id=id;
     }
+
     public String getName(){
         return name;
     }
     public void setName(String name){
         this.name=name;
     }
+
     public String getEmail(){
         return email;
     }
     public void setEmail(String email){
         this.email=email;
     }
+
     public float getCgpa(){
         return cgpa;
     }
-    public void setCgpa(){
+    public void setCgpa(float cgpa){
         this.cgpa=cgpa;
     }
     public Stuentity(Long id,String name,String email,float cgpa){
@@ -43,6 +46,7 @@ public class Stuentity{
         this.name=name;
         this.email=email;
         this.cgpa=cgpa;
+
     }
     public Stuentity(){
         
