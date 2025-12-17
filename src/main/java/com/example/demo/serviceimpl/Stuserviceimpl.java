@@ -7,5 +7,6 @@ import com.example.demo.Service.Stuserviceimpl;
 @Service
 
 public class StuserviceImpl implements Stuservice{
+
     
 }
