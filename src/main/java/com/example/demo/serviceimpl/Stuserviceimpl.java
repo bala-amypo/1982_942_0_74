@@ -8,5 +8,8 @@ import com.example.demo.Service.Stuserviceimpl;
 
 public class StuserviceImpl implements Stuservice{
 
-    
+
+        public 
+
+
 }

@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 
 public interface Stuservice{
 
-    
+    StuEnty saveStudent(Student student);
 
+
+    
 }
