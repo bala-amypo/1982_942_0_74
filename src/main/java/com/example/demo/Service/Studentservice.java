@@ -5,9 +5,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 
-public interface Stuservice{
+public interface Studentservice{
 
-    StuEnty saveStudent(Student student);
+    StudentEnty saveStudent(Student student);
 
 
     
