@@ -1,3 +1,11 @@
-package com.example.demo.Serviceimpl;
+package com.example.demo.serviceimpl;
 
-import
+import org.springframework.stereotype.Service;
+
+import com.example.demo.Service.Stuserviceimpl;
+
+@Service
+
+public class StuserviceImpl implements Stuservice{
+    
+}
