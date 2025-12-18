@@ -47,7 +47,6 @@ public class Studententity{
         this.cgpa=cgpa;
 
     }
-    public Stuentity(){
-        
+    public Studententity(){ 
     }
 }
