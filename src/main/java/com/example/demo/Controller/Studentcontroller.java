@@ -12,7 +12,7 @@ public class StudentController {
      StudentService studentService;
 
     @PostMapping("/postdata")
-    public Student postdat(@RequestBody Student student){
+    public Student postdata(@RequestBody Student student){
         return studentService.saveStudent(student);
     }
     
